@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> SonicSpectrum</title>
+        <style type="text/css">
+            *{padding: 0;margin: 0;box-sizing: border-box;}
+             header{
+                width: 100%;
+                height: 100vh;
+                background: url(music.jpg);
+                background-size: cover;
+                font-family: sans-serif;
+             }
+             nav{
+                width: 1.5;
+                height: 1;
+                color: rgb(135, 7, 7);
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+             }
+             .logo{
+                font-size: 2em;
+                letter-spacing: 2px;
+             }
+             .menu{
+                text-decoration: none;
+                color: white;
+                padding: 5px 5px;
+                font-size: 15px;
+                background: rgb(16, 14, 14);
+                border-radius: 10px
+             }
+             .menu a:before{
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border-bottom: 2px solid white;
+                transition: 0.4s linear;
+             }
+             .menu a:hover:before{
+                width: 90%;
+             }
+             .radio {
+                text-decoration: none;
+                color: white;
+                padding: 5px 5px;
+                font-size: 15px;
+                background: rgb(16, 14, 14);
+                border-radius: 10px
+             }
+             .lib{
+                text-decoration: none;
+                color: white;
+                padding: 5px 5px;
+                font-size: 15px;
+                background: rgb(16, 14, 14);
+                border-radius: 10px
+
+             }
+             .pre a{
+                text-decoration: none;
+                color: white;
+                padding: 10px 20px;
+                font-size: 20px;
+                background: indianred;
+                border-radius: 8px;
+
+             }
+             .pre a:hover{
+                background: transparent;
+                border: 1px solid indianred;
+             }
+             .h-txt{
+                max-width: 650px;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+                color: white;
+             }
+             .h-txt h1{
+                font-size: 2.5em;
+             }
+             .h-txt a{
+                text-decoration: none;
+                background: indianred;
+                color: white;
+                padding: 10px 20px;
+                letter-spacing:5px;
+                transition: 0.4s;   
+             }
+             ,.h-txt a:hover{
+                background: transparent;
+                border: 1px solid indianred;
+        </style>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="logo">
+                    $pectrum
+                </div>
+                <div class="menu">
+                    <a href="#">Home</a>
+                </div>
+                <div class="radio">
+                    <a href="#">Radio</a>
+                </div>
+                <div class="lib">
+                    <a href="#">Your Library</a>
+                </div>
+                <div class="pre">
+                    <a href="#">Premium</a>
+                </div>
+            </nav>
+            <section class="h-txt">
+                <h1>Where Words Fail, Music Speaks</h1>
+                <br>
+                <center><a href="#">SEARCH</a></center>
+            </section>
+
+        </header>
+    </body>
+</html>
